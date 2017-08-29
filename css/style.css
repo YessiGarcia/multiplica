@@ -1,0 +1,31 @@
+.nav-wrapper {
+  background-color: gray; }
+  .nav-wrapper li:hover {
+    background-color: blue; }
+
+.collection {
+  padding: 30px; }
+
+.collection-item {
+  border: none;
+  padding-right: 20px; }
+
+.gris {
+  color: #b0bec5; }
+
+.material-icons {
+  margin: 10px 5px 0 0; }
+
+.dona {
+  height: 150px; }
+
+.detalle {
+  padding: 20px; }
+
+.porcentajes {
+  display: inline;
+  margin: 0;
+  padding: 0; }
+
+.alertas {
+  height: 200px; }

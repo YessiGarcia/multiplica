@@ -1,0 +1,24 @@
+@media (max-width: 720pX) {
+  .icon-menu {
+    display: block;
+    right: 90%;
+    display: flex;
+    color: beige; }
+  .menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.3s; }
+  .menu ul {
+    display: block;
+    top: 50px; }
+  .menu ul li:hover ul {
+    display: none;
+    position: static; }
+  .menu ul ul a {
+    padding: 15px 70px; }
+  #btn-menu:checked ~ .menu {
+    transform: translateX(0%); }
+  .boton {
+    width: 100%; } }
